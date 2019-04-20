@@ -18,7 +18,7 @@
 - MC methods work based on episodes. We sample episodes of experience and make updates to our estimates at the end of each episode. MC methods have high variance (due to lots of random decisions within an episode) but are unbiased.
 - MC Policy Evaluation: Given a policy, we want to estimate the state-value function V(s). Sample episodes of experience and estimate V(s) to be the reward received from that state onwards averaged across all of your experience. The same technique works for the action-value function Q(s, a). Given enough samples, this is proven to converge.
 - MC Control: Idea is the same as for Dynamic Programming. Use MC Policy Evaluation to evaluate the current policy then improve the policy greedily. The Problem: How do we ensure that we explore all states if we don't know the full environment?
-- Solution to exploration problem: Use epsilon-greedy policies instead of full greedy policies. When making a decision act randomly with probability epsilon. This will learn the optimal epsilon-greedy policy.
+- Solution to exploration problem: Use **epsilon-greedy** policies instead of full greedy policies. When making a decision act randomly with probability epsilon. This will learn the optimal epsilon-greedy policy.
 - Off-Policy Learning: How can we learn about the actual optimal (greedy) policy while following an exploratory (epsilon-greedy) policy? We can use importance sampling, which weighs returns by their probability of occurring under the policy we want to learn about.
 
 
