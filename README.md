@@ -16,7 +16,7 @@ All code is written in Python 3 and uses RL environments from [OpenAI Gym](https
 - [x] [MDPs and Bellman Equations](MDP/)
 - [x] [Dynamic Programming: Model-Based RL, Policy Iteration and Value Iteration](DP/)
 - [x] [Monte Carlo Model-Free Prediction & Control](MC/)
-- [Temporal Difference Model-Free Prediction & Control](TD/)
+- [x] [Temporal Difference Model-Free Prediction & Control](TD/)
 - [Function Approximation](FA/)
 - [Deep Q Learning](DQN/) (WIP)
 - [Policy Gradient Methods](PolicyGradient/) (WIP)
